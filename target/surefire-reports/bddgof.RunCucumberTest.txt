@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: bddgof.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.048 sec <<< FAILURE!
+Cliente efetua o pagamento(Venda de produtos para Loja)  Time elapsed: 0.186 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<Pagamento [em Dinheiro processado com sucess]o> but was:<Pagamento [não autorizad]o>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at bddgof.Stepdefs.o_pagamento_tem_que_ser_concluido_com_sucesso(Stepdefs.java:44)
+	at ?.O pagamento tem que ser concluido com sucesso: "Pagamento não autorizado"(classpath:bddgof/venda.feature:11)
+
